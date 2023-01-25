@@ -14,15 +14,26 @@ npm start
 For usage use the following commands in the server folder
 ```
 npm install
-npm run dev
+npm start
 ```
+
+## Usage NOTE
+If you want this project to run in a production way you should build the client
 
 ## Don't forget to set the environment variables 
 Don't forget to set the following environment variables to your project run :grinning:
+
+### Server side environment variables
 ```
 MONGODB_URL
 OPENAI_API_KEY
 CLOUDINARY_CLOUD_NAME
 CLOUDINARY_CLOUD_API_KEY
 CLOUDINARY_CLOUD_API_SECRET
+```
+
+### Client side environment variables
+
+```
+VITE_BACKEND_URL
 ```
